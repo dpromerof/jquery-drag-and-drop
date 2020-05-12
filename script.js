@@ -62,7 +62,7 @@ function handleCardDrop(event, ui) {
   //If all the cards have been placed correctly then
   //display a message and reset the cards for
   //another go
-  if (correctCards === 1) {
+  if (correctCards === 10) {
     $('#successMessage').show();
     $('#successMessage').animate({
       left: '380px',
